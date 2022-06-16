@@ -1,0 +1,27 @@
+# Package managers
+vendor
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Log files
+*.log
+
+# General
+!.gitkeep
+
+# Editors
+.idea
+.vscode
