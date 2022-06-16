@@ -4,7 +4,7 @@ namespace Nerbiz\ReorderMigrations\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class ReorderMigrationsRequest extends FormRequest
+class ConfirmChangesRequest extends FormRequest
 {
     /**
      * {@inheritdoc}
@@ -29,9 +29,8 @@ class ReorderMigrationsRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'naming_mode' => ['bail', 'required', 'regex:/^current|custom$/'],
-            'filename_prefix' => 'bail|required_if:naming_mode,custom',
-            'filenames' => 'bail|required|array',
+            'current_filenames' => 'bail|required|array',
+            'new_filenames' => 'bail|required|array',
         ];
     }
 
@@ -41,9 +40,8 @@ class ReorderMigrationsRequest extends FormRequest
     public function messages(): array
     {
         return [
-            'naming_mode.*' => __('Choose a valid naming mode'),
-            'filename_prefix' => __('Fill in the custom prefix'),
-            'filenames' => __('The list of filenames is invalid'),
+            'current_filenames.*' => __('The list of current filenames is invalid'),
+            'new_filenames.*' => __('The list of new filenames is invalid'),
         ];
     }
 }
