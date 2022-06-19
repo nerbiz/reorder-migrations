@@ -1,5 +1,10 @@
 # Release notes
 
+## 1.1.1
+#### 2022-06-19
+
+* Added credits to the readme file.
+
 ## 1.1.0
 #### 2022-06-16
 
