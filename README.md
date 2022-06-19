@@ -13,3 +13,8 @@ composer require --dev nerbiz/reorder-migrations
 ## Usage
 
 Visit `https://<your-url>/reorder-migrations` to get started. It only works in 'local' and 'development' environments and it's protected by the 'auth' middleware.
+
+## Credits
+
+SortableJS is used in this project.  
+[https://github.com/SortableJS/Sortable](https://github.com/SortableJS/Sortable)
