@@ -1,5 +1,10 @@
 # Release notes
 
+## 1.1.2
+#### 2022-06-27
+
+* File contents got mixed up during file renaming.
+
 ## 1.1.1
 #### 2022-06-19
 
