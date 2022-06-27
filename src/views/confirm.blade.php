@@ -12,7 +12,6 @@
             <thead>
                 <tr>
                     <th>Current filenames</th>
-                    <th></th>
                     <th>New filenames</th>
                 </tr>
             </thead>
@@ -23,7 +22,6 @@
 
                     <tr>
                         <td>{{ $filename }}</td>
-                        <td class="arrow">&raquo;</td>
                         <td>{{ $newFilenames[$index] }}</td>
                     </tr>
                 @endforeach

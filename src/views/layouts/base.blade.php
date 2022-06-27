@@ -82,10 +82,6 @@
                 padding: 10px;
             }
 
-            tr:hover td {
-                background-color: antiquewhite;
-            }
-
             input[type='text'] {
                 border-radius: 4px;
                 border: 1px grey solid;
