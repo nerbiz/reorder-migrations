@@ -1,5 +1,10 @@
 # Release notes
 
+## 1.1.3
+#### 2022-07-05
+
+* List items are now dragged by a handle element.
+
 ## 1.1.2
 #### 2022-06-27
 
