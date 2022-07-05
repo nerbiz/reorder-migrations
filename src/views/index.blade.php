@@ -36,6 +36,7 @@
             @foreach($filenames as $fileName)
                 <li class="list-item">
                     <input type="hidden" name="filenames[]" value="{{ $fileName }}">
+                    <span class="move-handle">⇳</span>
                     {{ $fileName }}
                 </li>
             @endforeach
@@ -57,6 +58,7 @@
         new Sortable(fileList, {
             animation: 150,
             ghostClass: 'list-item-ghost',
+            handle: '.move-handle',
         });
     </script>
 @endsection
