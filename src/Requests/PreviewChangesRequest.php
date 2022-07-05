@@ -29,7 +29,7 @@ class PreviewChangesRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'naming_mode' => ['bail', 'required', 'regex:/^current|custom$/'],
+            'naming_mode' => ['bail', 'required', 'in:current,custom'],
             'filename_prefix' => 'bail|required_if:naming_mode,custom',
             'filenames' => 'bail|required|array',
         ];

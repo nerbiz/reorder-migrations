@@ -45,11 +45,6 @@
                 font-weight: bold;
             }
 
-            .arrow {
-                font-size: 30px;
-                line-height: 1;
-            }
-
             .cancel-button {
                 margin-left: 50px;
             }
@@ -60,7 +55,8 @@
             }
 
             .list-item {
-                cursor: move;
+                display: flex;
+                align-items: center;
                 padding: 10px 15px;
                 background-color: lightskyblue;
             }
@@ -71,6 +67,16 @@
 
             .list-item-ghost {
                 opacity: 0.5;
+            }
+
+            .move-handle {
+                cursor: move;
+                display: inline-block;
+                margin-top: -10px;
+                margin-right: 10px;
+                width: 50px;
+                font-size: 50px;
+                text-align: center;
             }
 
             table {
