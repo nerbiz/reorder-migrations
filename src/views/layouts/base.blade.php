@@ -58,6 +58,7 @@
                 display: flex;
                 align-items: center;
                 padding: 10px 15px;
+                height: 50px;
                 background-color: lightskyblue;
             }
 
@@ -72,7 +73,7 @@
             .move-handle {
                 cursor: move;
                 display: inline-block;
-                margin-top: -10px;
+                margin-top: -8px;
                 margin-right: 10px;
                 width: 50px;
                 font-size: 50px;

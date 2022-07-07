@@ -7,8 +7,7 @@
 
     <p class="warning">
         {{ __('Warning: this package assumes the default file format "yyyy_mm_dd_hhmmss_file_name.php".') }}<br>
-        {{ __('If you use any other format, unexpected things will happen.') }}<br>
-        {{ __('In any case, make sure you have a backup, or use a version control system.') }}
+        {{ __('If you use any other format, unexpected things will happen. Make sure you have a backup.') }}
     </p>
 
     <form action="{{ route('reorderMigrations.processReorder') }}" method="post">
